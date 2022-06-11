@@ -1,0 +1,289 @@
+.nav-container{
+  display: flex;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  width:100%;
+
+  height: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+
+
+
+
+.nav-link{
+
+  text-decoration: none;
+  color: white;
+
+}
+.nav-item {
+  list-style: none;
+  list-style-position: inside;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  border: 1rem solid;
+
+
+}
+  .show  {
+    display: none;
+   }
+   .show div {
+     width: 2.5rem;
+     height: 0.2rem;
+     margin: 0.4rem;
+     background: rgb(204, 204, 204);
+     transition: 0.3s ease-in;
+   }
+
+
+  .nav{
+
+    
+    width:20%;
+    z-index: 2;
+    height: 100%;
+    background-color: blueviolet;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+
+  }
+ 
+  
+  @media screen and (max-width: 768px) {
+          
+    .nav{
+
+    
+      width:100%;
+   
+      height: 100%;
+      opacity: 0.8;
+      transform: translateX(-100%);
+      transition: 0.5s ease-in;
+  
+    }
+
+    .nav-animate{
+
+      background-color: aqua;
+      transform: translateX(0%);
+      transition: 0.5s ease-in;
+}
+
+.show  {
+  display: block;
+  transform: translateX(+100%);
+  transition: 0.5s ease-in
+ 
+ }
+ .exit{
+  display: block;
+  transform: translateX(0%);
+  transition: 0.5s ease-in;
+
+}
+  .exit .line1 {
+    transform: rotate(-45deg) translate(-4px, 5px);
+  }
+  .exit .line2 {
+  
+    opacity: 0;
+  }
+  .exit .line3 {
+    transform: rotate(45deg) translate(-4px, -5px);
+  }
+
+  }
+  /*.nav__toggler  {
+    display: none;
+   }
+   .nav__toggler div {
+     width: 2.5rem;
+     height: 0.2rem;
+     margin: 0.4rem;
+     background: rgb(204, 204, 204);
+     transition: 0.3s ease-in;
+   }
+ 
+   .nav__toggler_ div {
+     width: 2.5rem;
+     height: 0.2rem;
+     margin: 0.4rem;
+     background: rgb(204, 204, 204);
+     transition: 0.3s ease-in;
+   }
+   .toggle .line1 {
+     transform: rotate(-45deg) translate(-4px, 5px);
+   }
+   .toggle .line2 {
+     opacity: 0;
+   }
+   .toggle .line3 {
+     transform: rotate(45deg) translate(-4px, -5px);
+   }
+
+
+
+.nav-container{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: azure;
+
+
+  width:100%;
+
+  height: 100%;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+
+
+  .nav__active {
+    transform: translateX(0%);
+  }
+  
+
+  
+
+  
+.nav{
+ 
+    height:auto;
+ min-height:100%;
+    background-color: black;
+    display: flex;
+
+}
+
+.nav-ul{
+    width: 100%;
+    
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+   
+    list-style: none;
+
+
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+   
+
+}
+.nav-item {
+
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+
+
+ 
+}
+
+
+.nav-link{
+
+   
+
+  
+
+    text-decoration: none;
+    color: white;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .nav-container{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+        color: rgb(93, 192, 27);
+    
+    
+        width: 100%;
+    
+        height: 100%;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        text-align: center;
+    
+    }
+    
+.nav-link{
+
+   
+
+  
+
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+.nav__toggler  {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    transform: translateX(300%);
+   }
+   .nav__toggler_  {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    transform: translateX(0%);
+   }
+.nav{
+    position:absolute;
+ 
+    height:auto;
+    min-height:100%;
+    background-color: black;
+    display: flex;
+  
+
+}
+.nav__active {
+    width: 100%;
+    transform: translateX(100%);
+    background-color: rgb(7, 5, 5);
+  }
+
+
+  }
+
+*/
+
+
