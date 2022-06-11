@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/react-folio/static/css/main.a44d2bc2.css",
-    "main.js": "/react-folio/static/js/main.46388b63.js",
+    "main.js": "/react-folio/static/js/main.009c8ad6.js",
     "index.html": "/react-folio/index.html",
     "main.a44d2bc2.css.map": "/react-folio/static/css/main.a44d2bc2.css.map",
-    "main.46388b63.js.map": "/react-folio/static/js/main.46388b63.js.map"
+    "main.009c8ad6.js.map": "/react-folio/static/js/main.009c8ad6.js.map"
   },
   "entrypoints": [
     "static/css/main.a44d2bc2.css",
-    "static/js/main.46388b63.js"
+    "static/js/main.009c8ad6.js"
   ]
 }
