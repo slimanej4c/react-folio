@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-folio/static/css/main.a44d2bc2.css",
+    "main.js": "/react-folio/static/js/main.f281a511.js",
+    "index.html": "/react-folio/index.html",
+    "main.a44d2bc2.css.map": "/react-folio/static/css/main.a44d2bc2.css.map",
+    "main.f281a511.js.map": "/react-folio/static/js/main.f281a511.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a44d2bc2.css",
+    "static/js/main.f281a511.js"
+  ]
+}
