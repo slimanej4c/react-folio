@@ -35,7 +35,7 @@ const  Navbar=() =>{
                 <NavLink className="nav-link" to="/">Contactt</NavLink>
                 </li>
                 <li className='nav-item'  onClick={navToggle}>
-                <NavLink className="nav-link" to="/Deplome">Déplome et Formation</NavLink>
+                <NavLink className="nav-link" to="/Deplome">Déplome et Formationn</NavLink>
                 </li>
                 <li className='nav-item'  onClick={navToggle}>
                 <NavLink className="nav-link" to="/">Expérience Proffessionel</NavLink>
