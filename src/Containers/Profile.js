@@ -50,16 +50,18 @@ const  Profile=() =>{
               <div className='right-div'>
 
               <div className='lines'>
-                  <div className="line"></div>
-                  {title1.split('').map((word,index)=>{
-                    return(
-                     <motion.span>
-                          {word}
-                     </motion.span>
-                    )
-
-                  })}
-                  
+                
+                  <div className="line">
+              
+                  </div>
+                  <h2>BENMAYOUF SLIMANE</h2> 
+              </div>
+              <div className='lines'>
+                
+                  <div className="line">
+              
+                  </div>
+                  <h2>KENZZZZOOO</h2> 
               </div>
               
               <div className='lines'>

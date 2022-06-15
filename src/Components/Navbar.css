@@ -56,11 +56,11 @@
 .nav-link{
   
   text-decoration: none;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 18px;
   font-weight: bold;
-  text-shadow: 0.5px 0.5px #1f1f1f;
-
+  text-shadow: 0.5px 0.5px #e7cc00;
+  
   color: rgb(0, 0, 0);
  
 
@@ -94,7 +94,7 @@ a:hover {
    
       height: 100%;
       opacity: 0.8;
-      background-color:rgb(214, 174, 27,0.5);
+      background-color:rgba(255, 246, 212, 0.9);
     
       transform: translateX(-100%);
       transition: 0.5s ease-in;
@@ -103,7 +103,7 @@ a:hover {
 
     .nav-animate{
 
-      background-color:rgb(214, 174, 27,0.5);
+      background-color:rgba(249, 246, 238, 0.9);
       transform: translateX(0%);
       transition: 0.5s ease-in;
 }
