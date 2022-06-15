@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 import'./css/Profile.css'
 import AnimatePage from './AnimatePage';
 import Retate from './animate/Retate';
-
+import Test from './animate/Test';
 
 const  Profile=() =>{
   const[chose ,setchose]=useState('fr')
@@ -54,24 +54,23 @@ const  Profile=() =>{
                   <div className="line">
               
                   </div>
-                  <h2>BENMAYOUF SLIMANE</h2> 
+                 
+                  <Test x={"BENMAYOUF SLIMANE"}/>
+                  
               </div>
-              <div className='lines'>
-                
-                  <div className="line">
+             
               
-                  </div>
-                  <h2>KENZZZZOOO</h2> 
-              </div>
               
               <div className='lines'>
                   <div className="line"></div>
-                  <h2>Full Stack Déveloper</h2> 
+             
+                  <Test x={"Full Stack Déveloper"}/>
               </div>
 
               <div className='lines'>
                   <div className="line"></div>
-                  <h2>Python React/ReactNative</h2> 
+                
+                  <Test x={"Python React/ReactNative"}/>
               </div>
                     
                  
