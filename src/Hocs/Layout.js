@@ -7,10 +7,10 @@ const Layout =({children}) =>{
     return (
   
   <Fragment>
-   <div className='container'>
-   
+   <div className='container-l'>
+   <div className='fixed-part'>
      <Navbar/>
-
+     </div>
    <div className='move-part'>
    {children}
 

@@ -13,22 +13,24 @@ const  Navbar=() =>{
 
     // Icon Toggler
     if (icon === "show") {
-      setIcon("show exit");
+      setIcon("show exit"); 
     } else setIcon("show");
   };
   return (
     <div className={active}>
 
        <div onClick={navToggle} className={icon} >
-        <div className="line1"></div>
-        <div className="line2"></div>
-        <div className="line3"></div>
-      </div>
+        <div className="line11"></div>
+        <div className="line22"></div>
+        <div className="line33"></div>
+        </div>
+
+
         <div className='nav-container'>
             <ul className='nav-ul'>
             <Fragment>
                 <li className='nav-item' onClick={navToggle}>
-                <NavLink className="nav-link" to="/Profile">Profilee</NavLink>
+                <NavLink className="nav-link" to="/Profile">About</NavLink>
                
                 </li>
                 <li className='nav-item'  onClick={navToggle}>

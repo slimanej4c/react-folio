@@ -1,13 +1,15 @@
 import React , {useState} from 'react'
-import { motion , AnimatePresence  } from 'framer-motion';
+import { motion   } from 'framer-motion';
 import { Fragment } from 'react'
 import { NavLink } from 'react-router-dom'
 import'./css/Profile.css'
 import AnimatePage from './AnimatePage';
+import Retate from './animate/Retate';
 
 
 const  Profile=() =>{
   const[chose ,setchose]=useState('fr')
+  const title1='BENMAYOUF SLIMANE'
   const[langue,setlangue]=useState({
     'fr':{'lnamet':'Nom','lname':'Ben mayouf','fnamet':'Prenom','fname':'Slimane',
     'adresset':'Adresse','adresse':'Mansourah Bordj Bou Arreridj','countryt':'Pay','country':'Algerie'},
@@ -17,33 +19,87 @@ const  Profile=() =>{
     'adresset':'Adress','adresse':'Mansourah Bordj Bou Arreridj','countryt':'Country','country':'Algeria'
   }
   })
+
+  const styles = {
+    background: "blue",
+    borderRadius: 30,
+    width: 150,
+    height: 150,
+    margin: "auto"
+  };
+  
+   const Rota = () => (
+
+    <motion.div
+      style={styles}
+      animate={{ rotate: 360 }}
+      transition={{ duration: 2 }}
+    />
+  );
   return (
+   
  <AnimatePage>
     <div className='container'  >
+
+
         <div className='container-right'>
-           <h1>right</h1>
-          
-              <div>
-                  <div>
-                    <h2>{langue[chose]['lnamet']} :  {langue[chose]['lname']}</h2> 
-                    <h2>{langue[chose]['fnamet']} :  {langue[chose]['fname']}</h2> 
-                    <h2>{langue[chose]['countryt']} :  {langue[chose]['country']}</h2> 
-                    <h2>{langue[chose]['adresset']} :  {langue[chose]['adresse']}</h2> 
-                   
-                  </div>
+        
+        
+          <motion.div className='line1'  animate={{height: 1000 }}
+      transition={{ duration: 2 }}> </motion.div>
+              <div className='right-div'>
+
+              <div className='lines'>
+                  <div className="line"></div>
+                  {title1.split('').map((word,index)=>{
+                    return(
+                     <motion.span>
+                          {word}
+                     </motion.span>
+                    )
+
+                  })}
+                  
+              </div>
               
+              <div className='lines'>
+                  <div className="line"></div>
+                  <h2>Full Stack Déveloper</h2> 
+              </div>
+
+              <div className='lines'>
+                  <div className="line"></div>
+                  <h2>Python React/ReactNative</h2> 
+              </div>
+                    
+                 
                 
               </div>
+              <motion.div className='line2'  animate={{height: 1000 }} transition={{ duration: 2 }}> </motion.div>
    
 
         </div>
-        <div className='container-left'>
-
-        
-        <h1>left</h1>
+        <div className='container-left-big'>
+           
+            <Retate className='retate-left' >
+       
+       <div className='container-left'>
       
-        </div>
+     
+         <div className='left-div'>
+        
 
+         </div>
+      
+        
+       </div>
+       </Retate>
+   
+      
+        </div >
+       
+       
+     
 
     </div>
     </AnimatePage>
